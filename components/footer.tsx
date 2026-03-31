@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { Twitter, Linkedin, Instagram, Facebook } from "lucide-react"
-import Image from "next/image"
 
 const footerLinks = {
   solutions: [
@@ -32,13 +31,12 @@ const footerLinks = {
 export function Footer() {
   return (
     <div className="relative">
-      <div className="absolute -top-[20vw] left-0 right-0 w-full h-[50vw] z-0 overflow-hidden">
-        <Image src="/images/footer-bg.png" alt="Tuscan landscape" fill className="object-cover" priority />
+      <div className="absolute -top-[20vw] left-0 right-0 w-full h-[50vw] z-0 overflow-hidden bg-gradient-to-b from-muted/50 to-background">
       </div>
 
       <div className="absolute -top-[15vw] left-0 right-0 flex items-end justify-center overflow-visible pointer-events-none z-10">
         <h2 className="font-bold text-center text-[18vw] sm:text-[16vw] md:text-[14vw] lg:text-[12vw] leading-[0.85] tracking-tighter text-white whitespace-nowrap">
-          AUTOPILOT
+          XPAND
         </h2>
       </div>
 

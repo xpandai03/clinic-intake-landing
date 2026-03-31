@@ -107,17 +107,9 @@ export function ServicesSection() {
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div ref={sectionRef} className="relative px-6 lg:px-8 py-16 lg:py-10 mb-32 overflow-hidden rounded-3xl">
-          {/* Background image that spans full width */}
-          <div className="absolute inset-0 w-full h-full">
-            <img
-              src="/images/7aecbceb-cbd3-4cbd-901c-dd0125d41525.png"
-              alt="Beautiful house"
-              className={`w-full h-full object-cover transition-transform duration-1000 ease-out ${
-                isVisible ? "scale-100" : "scale-110"
-              }`}
-            />
-            {/* Overlay for better text readability */}
-            <div className="absolute inset-0 bg-black/20" />
+          {/* Background */}
+          <div className="absolute inset-0 w-full h-full bg-primary">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary/80" />
           </div>
 
           {/* Text content on top */}

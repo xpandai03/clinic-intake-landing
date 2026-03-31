@@ -100,7 +100,10 @@ export function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-1">
-            <button
+            <a
+              href="https://calendly.com/raunek-xpandai/new-meeting?month=2026-03"
+              target="_blank"
+              rel="noopener noreferrer"
               className={`relative flex items-center gap-0 border rounded-full pl-5 pr-1 py-1 transition-all duration-300 group overflow-hidden ${
                 isScrolled ? "border-accent bg-accent/10" : "border-border"
               }`}
@@ -129,7 +132,7 @@ export function Header() {
                   }`}
                 />
               </span>
-            </button>
+            </a>
           </div>
 
           <button
@@ -197,7 +200,10 @@ export function Header() {
               <a href="#" className={isScrolled ? "text-primary" : "text-foreground"}>
                 Login
               </a>
-              <button
+              <a
+                href="https://calendly.com/raunek-xpandai/new-meeting?month=2026-03"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`relative flex items-center gap-0 border rounded-full pl-5 pr-1 py-1 w-fit transition-all duration-300 group overflow-hidden ${
                   isScrolled ? "border-accent bg-accent/10" : "border-border"
                 }`}
@@ -226,7 +232,7 @@ export function Header() {
                     }`}
                   />
                 </span>
-              </button>
+              </a>
             </div>
           </nav>
         )}

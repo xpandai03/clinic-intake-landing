@@ -7,7 +7,7 @@ const faqs = [
       "Most clinics are fully operational within 30 minutes. Our onboarding team guides you through the entire process, including EHR integration and staff training. No technical expertise required.",
   },
   {
-    question: "Is Clinic Autopilot HIPAA compliant?",
+    question: "Is XPAND HIPAA compliant?",
     answer:
       "Absolutely. We're fully HIPAA compliant with SOC 2 Type II certification. We provide a Business Associate Agreement (BAA) and conduct regular security audits. Your patient data is encrypted at rest and in transit.",
   },
@@ -40,7 +40,7 @@ export function FAQSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-normal mb-6 text-balance font-serif">Frequently asked questions</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Everything you need to know about Clinic Autopilot. Have a question not listed? Contact our support team.
+            Everything you need to know about XPAND. Have a question not listed? Contact our support team.
           </p>
         </div>
 

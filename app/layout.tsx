@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _playfair = Playfair_Display({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Clinic Autopilot - Healthcare Automation Made Simple",
+  title: "XPAND - Healthcare Automation Made Simple",
   description: "Automate patient intake, scheduling, and follow-ups. HIPAA compliant healthcare automation that saves clinics 15+ hours per week.",
     generator: 'v0.app'
 }

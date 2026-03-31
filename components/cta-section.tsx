@@ -16,7 +16,7 @@ export function CTASection() {
             Ready to put your clinic on autopilot?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10">
-            Join hundreds of healthcare practices that trust Clinic Autopilot for their operations.
+            Join hundreds of healthcare practices that trust XPAND for their operations.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

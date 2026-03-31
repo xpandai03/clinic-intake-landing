@@ -105,7 +105,7 @@ export function ResultsSection() {
       <div className="max-w-7xl mx-auto px-6 text-center mb-20">
         <h2 className="text-4xl md:text-5xl font-normal mb-6 text-balance font-serif">Real results from real clinics</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          See how healthcare practices are transforming their operations with Clinic Autopilot.
+          See how healthcare practices are transforming their operations with XPAND.
         </p>
       </div>
 

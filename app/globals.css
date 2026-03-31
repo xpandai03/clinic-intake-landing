@@ -9,7 +9,7 @@ html {
 }
 
 :root {
-  /* Clinic Autopilot - Navy, White, Teal accent theme */
+  /* XPAND - Navy, White, Teal accent theme */
   --background: oklch(0.98 0.005 240);
   --foreground: oklch(0.22 0.05 250);
   --card: oklch(0.99 0.003 240);

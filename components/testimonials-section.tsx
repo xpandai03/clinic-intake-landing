@@ -34,7 +34,7 @@ const testimonials2 = [
   {
     name: "Dr. Lisa Anderson",
     role: "Dermatology, Chicago",
-    content: "Our patient satisfaction scores went up 35% after implementing Clinic Autopilot.",
+    content: "Our patient satisfaction scores went up 35% after implementing XPAND.",
     avatar: "/placeholder.svg?height=48&width=48",
   },
   {

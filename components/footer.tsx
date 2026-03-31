@@ -46,18 +46,8 @@ export function Footer() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             <div className="col-span-2 md:col-span-1">
-              <Link href="/" className="flex items-center gap-2 mb-4">
-                <svg
-                  className="w-5 h-5 text-accent"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path d="M12 2L12 22M2 12L22 12" />
-                  <circle cx="12" cy="12" r="9" />
-                </svg>
-                <span className="text-base font-medium text-foreground">Clinic Autopilot</span>
+              <Link href="/" className="flex items-center mb-4">
+                <span className="text-lg font-semibold tracking-[0.3em] text-foreground">XPAND</span>
               </Link>
               <p className="text-sm text-muted-foreground mb-6">Healthcare automation, simplified.</p>
               <div className="flex gap-4">
@@ -154,8 +144,8 @@ export function Footer() {
           </div>
 
           <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-muted-foreground">© 2026 Clinic Autopilot. All rights reserved.</p>
-            <p className="text-xs text-muted-foreground">Clinic Autopilot Inc. - HIPAA Compliant Healthcare Automation</p>
+            <p className="text-xs text-muted-foreground">© 2026 XPAND. All rights reserved.</p>
+            <p className="text-xs text-muted-foreground">XPAND Inc. - HIPAA Compliant Healthcare Automation</p>
           </div>
         </div>
       </footer>

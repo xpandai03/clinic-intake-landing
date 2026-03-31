@@ -129,7 +129,7 @@ export function ServicesSection() {
               </h2>
               <div className="space-y-6 text-white/90 leading-relaxed">
                 <p>
-                  At Clinic Autopilot, we believe running a clinic should feel effortless. Our platform handles the
+                  At XPAND, we believe running a clinic should feel effortless. Our platform handles the
                   administrative burden so you can focus on what matters - your patients.
                 </p>
                 <p>

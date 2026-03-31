@@ -43,21 +43,11 @@ export function Header() {
         }`}
       >
         <div className="flex items-center justify-between">
-          <a href="#" onClick={handleLogoClick} className="flex items-center gap-2 cursor-pointer">
-            <svg
-              className={`w-6 h-6 transition-colors duration-300 ${isScrolled ? "text-primary" : "text-foreground"}`}
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M12 2L12 22M2 12L22 12" />
-              <circle cx="12" cy="12" r="9" />
-            </svg>
+          <a href="#" onClick={handleLogoClick} className="flex items-center cursor-pointer">
             <span
-              className={`text-lg font-medium tracking-tight transition-colors duration-300 ${isScrolled ? "text-primary" : "text-foreground"}`}
+              className={`text-xl font-semibold tracking-[0.3em] transition-colors duration-300 ${isScrolled ? "text-primary" : "text-foreground"}`}
             >
-              Clinic Autopilot
+              XPAND
             </span>
           </a>
 

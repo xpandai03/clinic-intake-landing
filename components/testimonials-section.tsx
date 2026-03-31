@@ -1,26 +1,22 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import Image from "next/image"
 
 const testimonials = [
   {
     name: "Dr. Sarah Chen",
     role: "Family Practice, Austin",
     content: "We cut our admin time by 60%. My staff can finally focus on patients instead of paperwork.",
-    avatar: "/placeholder.svg?height=48&width=48",
   },
   {
     name: "Dr. Michael Torres",
     role: "Pediatrics, Denver",
     content: "The automated intake forms alone saved us 2 hours per day. Game changer for our practice.",
-    avatar: "/placeholder.svg?height=48&width=48",
   },
   {
     name: "Dr. Emily Watson",
     role: "Internal Medicine, Seattle",
     content: "Patient no-shows dropped 40% with automated reminders. The ROI was immediate.",
-    avatar: "/placeholder.svg?height=48&width=48",
   },
 ]
 
@@ -29,19 +25,16 @@ const testimonials2 = [
     name: "Dr. James Park",
     role: "Orthopedics, Miami",
     content: "Integration with our EHR was seamless. Everything just works together now.",
-    avatar: "/placeholder.svg?height=48&width=48",
   },
   {
     name: "Dr. Lisa Anderson",
     role: "Dermatology, Chicago",
     content: "Our patient satisfaction scores went up 35% after implementing XPAND.",
-    avatar: "/placeholder.svg?height=48&width=48",
   },
   {
     name: "Dr. Robert Kim",
     role: "Cardiology, Boston",
     content: "HIPAA compliance was my biggest concern. They handled everything perfectly.",
-    avatar: "/placeholder.svg?height=48&width=48",
   },
 ]
 
@@ -146,18 +139,9 @@ export function TestimonialsSection() {
                   key={index}
                   className="flex-shrink-0 w-full sm:w-[400px] bg-card border border-border rounded-2xl p-8 border-none py-4"
                 >
-                  <div className="flex items-start gap-4 mb-6">
-                    <Image
-                      src={testimonial.avatar || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      width={48}
-                      height={48}
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <p className="text-foreground leading-relaxed flex-1 text-lg">
-                      &ldquo;{testimonial.content}&rdquo;
-                    </p>
-                  </div>
+                  <p className="text-foreground leading-relaxed text-lg mb-6">
+                    &ldquo;{testimonial.content}&rdquo;
+                  </p>
                   <div className="mt-auto">
                     <p className="text-foreground text-sm font-bold">{testimonial.name}</p>
                     <p className="text-muted-foreground text-xs">{testimonial.role}</p>
@@ -186,18 +170,9 @@ export function TestimonialsSection() {
                   key={index}
                   className="flex-shrink-0 w-full sm:w-[400px] bg-card border border-border rounded-2xl p-8 border-none py-4"
                 >
-                  <div className="flex items-start gap-4 mb-6">
-                    <Image
-                      src={testimonial.avatar || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      width={48}
-                      height={48}
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <p className="text-lg text-foreground leading-relaxed flex-1">
-                      &ldquo;{testimonial.content}&rdquo;
-                    </p>
-                  </div>
+                  <p className="text-lg text-foreground leading-relaxed mb-6">
+                    &ldquo;{testimonial.content}&rdquo;
+                  </p>
                   <div className="mt-auto">
                     <p className="text-foreground text-sm font-bold">{testimonial.name}</p>
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
